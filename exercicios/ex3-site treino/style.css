@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&display=swap');
+
+body{
+
+    background-image: linear-gradient(to left,#B33C1B,#E54C22,#ff673d);
+    font: normal 18px arial,sans-serif,verdana;
+
+}
+
+body#css{
+
+    background-image: linear-gradient(to left,#0170BA,#2FA7DB);
+    font: normal 18px arial,sans-serif,verdana;
+
+}
+
+main{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #b33c1b9a;
+
+}
+
+h1{
+    color: #663A2E;
+    font: bold 30px 'Lato', sans-serif;
+    
+    
+}
+
+h1#principal{
+    color: white;
+    font: normal 35px 'Anton', sans-serif;
+    text-align: center;
+    background-color: #663A2E;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px 15px #b33c1b9a;
+    
+}
+
+h2{
+    color: #f33c09;
+    font: normal 25px 'Lato', sans-serif;
+    
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h2#link{
+    
+    color: #042a44;
+    font: bolder 30px 'Lato', sans-serif;
+    text-shadow: 1px 1px 1px 15px  #095f99ce;;
+
+}
+
+
+header{
+    height: 180px;
+    background-color: #BF2F08;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.363);
+
+}
+
+.titulo{
+    font: normal 45px 'Anton', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+nav{
+    text-align: right;
+}
+
+nav > a{
+    width: 30px;
+    background-color: #FF5324;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+
+}
+
+a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+

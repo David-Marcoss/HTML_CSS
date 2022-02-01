@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tudo sobre google Glass</title>
+    <link rel="stylesheet"type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet"type="text/css" href="_css/media.css"/>
+</head>
+<script>
+    function mudaft(foto) {
+        document.getElementById("icone").src = foto;
+    }
+</script>
+<body >
+    <div id="interface"> <!--reprsenta um conteiner seve para agrupar comteudos,para depois formatalos-->
+
+    <header id="cabecalho"><!--reprsenta um cabeça~lho-->
+    <hgroup>
+    <h1>Google Glass</h1>
+    <h2>A revolução do Google está chegando</h2>
+    </hgroup>
+    <img id="icone" src='_imagens/multimidia.png'>
+
+    <nav id="menu"><!--Reprsenta navegaçao, item que gera links para otras paginas-->
+    <h1>Menu Principal</h1>
+    <ul><!--indica a criação de uma lista e qual seu tipo-->
+        <li onmousemove="mudaft('_imagens/Home.png')" onmouseout="mudaft('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+        <li onmousemove="mudaft('_imagens/especificacoes.png')" onmouseout="mudaft('_imagens/multimidia.png')"><a href="specs.html".html">Especificacoes</a></li>   
+        <li onmousemove="mudaft('_imagens/Fotos.png')" onmouseout="mudaft('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+        <li onmousemove="mudaft('_imagens/multimidia.png')" onmouseout="mudaft('_imagens/multimidia.png')"><a href="multimidia.html">Multimidia</a></li>
+        <li onmousemove="mudaft('_imagens/contato.png')" onmouseout="mudaft('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+    </ul>
+    </nav>
+    </header>
+<section>
+    <hgroup>
+        <header id="cabecalho2">
+            <h3>Glass > Multimídia</h3>
+            <h1>Sons e Vídeos</h1>
+            <h3>por David Marcos</h3>
+            <h3>Atualizado em 15/setembro/2020</h3>
+        </header>
+    </hgroup>
+    <div id="tv-radio">
+       <audio id="musica" controls="controls">
+            <source src="_media/_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+        </audio>
+        <video id="video" controls="controls" poster="_imagens/video-mini03.jpg">
+            <source src="_media/_media/getting-started.mp4" type="video/mp4"/>
+        </video>
+    </div>
+</section>
+<footer id="rodape"><!--representa o rodape parte final do site-->
+    <h2>Copyright 2020 - by David Marcos</h2>
+    <h2><a href="https://www.facebook.com/david.marcos.56614/" target="_blank">Facebook </a>|<a href="https://www.instagram.com/david_marcos98/?hl=pt-br" target="_blank">Instagram</a></h2>
+</footer>
+</div>
+</body>
+    
+</html>

@@ -1,0 +1,57 @@
+ ///////////////////////////// Seletores personalizados \\\\\\\\\\\\\\\
+ 
+ #  = ID: serve para indenticifar um elemento o id so pode ser utilizado por um unico elemento
+ .  = CLASS: serve para indentificar um ou mais elementos
+ :  = pseudo-class serve para alterar um conteudo ou estado de um elemento
+ :: = pseudo-element
+ >  = filho
+
+
+Comandos css:
+
+	background-image: linear-gradient(to bottom,); // comando para criar o efeito degrade
+	
+	
+	
+comandos fontes:
+	
+	font-family: //para escolher o tipo de fonte
+	font-size: //para escolher o tamanho da fonte
+	font-weight: //para configurar o peso da fonte
+	font-style: //para configurar o estilo da fonte
+	font:(font-style,font-weight,font-size,font-famyle) //engloba todos os comandos acima em um
+	
+	text-decoration:underline para deixar o texto subilinhado
+	text-aling:(center,left,right,justify)//para configurar o alinhamento do texto
+	text-indent: para criar um espaçãmento no inicio do texto
+
+
+MODELO DE CAIXAS:
+	
+	height: para configurar a altura
+	wedth:  para configurar a largura
+	border: parametros(largura, estilo e cor) para criar uma borda numa caixa
+	padding:parametros(altura,direita, baixo e esquerda) para configurar o espaço interno numa caixa
+	margin: parametros(altura,direita, baixo e esquerda)para configurar o espaço externo numa caixa
+	
+	box-shadow: para criar sombra em uma caixa
+	border-radius: para arredondar vertices de uma caixa
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

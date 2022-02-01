@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&display=swap');
+
+
+body#css{
+
+    background-image: linear-gradient(to left,#0170BA,#2FA7DB);
+    font: normal 18px arial,sans-serif,verdana;
+
+}
+
+main{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 3px #2fa7db98;
+
+}
+
+h1{
+    color: #285C80;
+    font: bold 30px 'Lato', sans-serif;
+    
+    
+}
+
+h1#principal{
+    color: white;
+    font: normal 35px 'Anton', sans-serif;
+    text-align: center;
+    background-color: #3781B3;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px 15px #275c80b2;
+    
+}
+
+h2{
+    color: #039AFF;
+    font: normal 25px 'Lato', sans-serif;
+    
+}
+
+h2:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h2#link{
+    
+    color: #042a44;
+    font: bolder 30px 'Lato', sans-serif;
+    text-shadow: 1px 1px 1px 15px  #095f99ce;;
+
+}

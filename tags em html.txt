@@ -1,0 +1,100 @@
+Tags em HTML:
+
+tags de estrutura:
+
+	<html lang="pt-br"> //tag de inicio de um codigo em html
+
+	<head> //tag que define a cabeça de um site, é aqui que fica as configurações do site
+
+	<body> // tag que define o corpo do site, é aqui que fica a estrutura do site
+
+
+tags de agrupamento:
+
+	<header>    //indicar o cabeçãlho do site
+	<nav>       //para criar um agrupamento de links
+	<main>      //para indicar o conteudo principal
+	<section>   //para indicar uma seção de conteudos
+	<article>   //para indicar artigos textos do site
+	<footer>    //para indicar o rodape do site
+
+
+Tags de formatação:
+	
+	<h1> tag de titulo de um texto
+	<p> tag de paragrafo
+	<br> quebra de linha
+	
+	<ol type: ""> tag para criação de listas ordenadas
+	<ul type: ""> tag para criação de listas não ordenadas
+	<li> tag qua define um item na lista
+	
+	<dl> tag para criação de listas de descrição
+	<dt> cria um termo da lista
+	<dd> cria a descrição para um termo
+	
+	<-- --> tag de commentario
+	
+Tags para destaque de textos:
+
+	<strong> tag para dar destaque e dexar texto em negrito
+	<em> tag para dexar texto em italico com siginificado
+	<mark> tag para marcar um texto
+	
+	<code> para marcar que um texto é um codigo por exemplo um codigo em python
+	<pre> para o texto fixar identado como voce formatou
+	
+	<q> tag para indicar que o texto é uma citação
+	<blockquote> tag para indicar que o texto é uma citação mais detalhada
+	<abbr> tag para indicar o siguinificado de um texto abreviado
+
+Tags para criação de links:
+	
+	<a href=""> tag para criação de links internos
+	<a href="" target="_blank" rel="external"> tag para criação de links externos
+	
+Tag para criação de imagens:
+
+	<img href=""> tag para inserir imagens
+	
+	<picture> tag para criação de imagens que se adaptam ao tipo de dispositivo
+        	
+        	<source media="(max-width:1000px)" srcset="caminho da imagem" type="image/png"> //define qual imagem vai ser aberta de
+        											   acordo com o tamanho da tela as imagens
+        											   de tamanho menor devem vim antes
+        	<img src="" alt=""> tag que define a imagem que vai ser aberta
+
+    	</picture>
+
+	
+tag para criação de midias(audio e video):
+	
+	<audio src:"" controls> tag para inserção de audio
+	<video src:"" controls poster=""> tag para inserção de videos	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

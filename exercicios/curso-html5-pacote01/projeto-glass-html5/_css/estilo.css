@@ -1,0 +1,255 @@
+@charset "UTF8";
+@font-face{
+    font-family: "fontelogo";
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+
+}
+
+p{
+    text-align: justify ; /*faz formatação dp texto */
+    text-indent: 50px;
+    color: black;
+    
+}
+a{
+    color: #606060;
+}
+body{
+    background-color: #dddddd;
+    font-family: arial, sans-serif;
+}
+/*formataçao do titulo do site*/
+header#cabecalho img#icone{
+    position: absolute;
+    left:1200px;
+    top: 60px;/*delocamento cima/baixo*/
+}
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;/*define uma imagen de fundo e suas caracteristicas*/
+
+}
+header#cabecalho h1{
+    font-family: "fontelogo";/*define uma fonte para o titulo*/
+    font-size: 35pt;/*define o tamnho da letra*/
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);/*cria sombra para o texto*/
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: "fontlogo";
+    font-size: 16pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
+/*FORMATAÇAO DO CORPO DO SITE*/
+section#corpo{
+    position: relative;
+    display: block;
+    width: 750px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+    border-bottom: 1px solid #606060
+
+}
+table#tabela{
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table#tabela td{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #606060;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+
+}
+table#tabela td.e{
+    background-color: #999999;
+    color: white;
+    text-align: left;
+    font-weight: normal;
+    
+}
+caption#titulo{
+    font-family: "fontelogo";
+    font-size: 18pt;
+    color: #606060;
+    text-align: center;
+}
+caption#titulo span{
+    display: block;
+    color: #606060;
+    font-size: 10pt;
+    text-align: right;
+
+}
+section#corpo h2{
+    display: block;
+    font-family: "fontelogo";
+    font-size: 17pt;
+    color: #606060;
+    background-color: #d8d6d6;
+    font-weight: bolder;
+    box-shadow: 0px 1px 2px black ;
+
+}
+header#cabecalho2 h1{
+    font-size: 25pt;
+    color: #606060;
+    font-weight: bolder;
+}
+header#cabecalho2 h3{
+    font-family: "fontelogo";
+    font-size: 10pt;
+    color: #969494;
+}
+section#corpo video{
+    display: block;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+/*------------------------*/
+/*FORMATAÇAO DA PARTE SECUNDARIA DO SITE*/
+aside#lateral{
+    display: block;
+    width: 500px;
+    float: right;
+}
+div#interface{ 
+    width: 1300px; /*delimita o tamanho do conteiner/obj*/
+    background-color: white;
+    padding: 10px;
+    margin: -20px auto 0px auto;/*faz a formatação das margens do site ordem(cima/direita/baixo/esquerda)*/
+    box-shadow: 0px 0px 10px rgb(39, 39, 39) ;/*cria uma sombra em volta do obj*/
+}
+div#lateral{
+    width: 470px;
+    background-color: rgb(218, 218, 214);
+    padding: 10px;
+    margin: 10px 1px;
+    box-shadow: 0px 0px 5px black;
+    
+}
+aside#lateral h2{
+    font-family: "fontelogo";
+    color: #606060;
+    font-size: 20pt;
+
+}
+aside#lateral video{
+    display: block;
+    width: 400px;
+    margin: auto;
+    border:black;
+
+}
+/*----------------------*/
+/*FORMATAÇAO DO RODAPE DO SITE*/
+footer#rodape{
+    clear: both;
+    width: auto;
+    border-top: 1px solid #606060;
+    
+}
+footer#rodape h2{
+    text-align: center;
+    font-family: "fontelogo";
+    font-size: 15pt;
+    color: #606060;
+}
+
+
+/*--------------------------*/
+/* formatação imagem*/
+figure.ft-legenda{
+    position: relative;/*so pode mudar de posiçao dentro do obj/img*/
+    border: 8px solid white;
+    box-shadow: 1px 1px 6px black;
+    
+}
+figure.ft-legenda img{
+    width: 100%;
+    height: 100%
+}
+figure.ft-legenda figcaption{
+    opacity: 0;
+    position: absolute;/*pode mudar de posiçao em todo lugar do sitee*/
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition-delay: opacity 1s;
+
+
+}
+figure.ft-legenda:hover figcaption{
+    opacity: 1;
+    position: absolute;
+}
+/*formatação imagem*/
+
+/*formatação menu*/
+nav#menu{
+    display: block;
+}
+
+nav#menu ul {/*lista*/
+    list-style: none; /*retira marcaçao da lista*/
+    text-transform: uppercase;/*transforma iteins da lista para maiusculo*/
+    position: absolute;/*pode seu mudada aposiçao do obj para qualquer lugar da tela*/
+    top: -20px;
+    left: 750px/*desloca obj para esquerda*/
+
+
+
+}
+nav#menu li{/*iteins da lista*/
+    display: inline-block;/*coloca itens lado a lado horizontalmente*/
+    background-color: rgb(185, 185, 182);/*define S cor de fundo*/
+    padding: 10px;/*cria um spaço dentro do objeto*/
+    margin: 3px;/*cria um spaço entre os objetoss*/
+    transition: background-color 1s;
+
+}
+nav#menu li:hover{/*cria um efeito visual ao passar o mause*/
+    background-color: #606060;
+
+}
+nav#menu h1{
+    display: none;
+
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;/*tira o sublinhado do text*/
+
+}
+nav#menu a:hover{
+    color:white
+
+}
+
+/*forrmatação menu*/
+
+
+
+
+
+
+
+
+

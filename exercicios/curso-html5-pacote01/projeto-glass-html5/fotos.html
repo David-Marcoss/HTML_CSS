@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tudo sobre google Glass</title>
+    <link rel="stylesheet"type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/fotos.css">
+</head>
+<script>
+    function mudaft(foto) {
+        document.getElementById("icone").src = foto;
+    }
+</script>
+<body >
+    <div id="interface"> <!--reprsenta um conteiner seve para agrupar comteudos,para depois formatalos-->
+
+    <header id="cabecalho"><!--reprsenta um cabeça~lho-->
+    <hgroup>
+    <h1>Google Glass</h1>
+    <h2>A revolução do Google está chegando</h2>
+    </hgroup>
+    <img id="icone" src='_imagens/Fotos.png'>
+
+    <nav id="menu"><!--Reprsenta navegaçao, item que gera links para otras paginas-->
+    <h1>Menu Principal</h1>
+    <ul><!--indica a criação de uma lista e qual seu tipo-->
+        <li onmousemove="mudaft('_imagens/Home.png')" onmouseout="mudaft('_imagens/Fotos.png')"><a href="index.html">Home</a></li>
+        <li onmousemove="mudaft('_imagens/especificacoes.png')" onmouseout="mudaft('_imagens/Fotos.png')"><a href="specs.html".html">Especificacoes</a></li>   
+        <li onmousemove="mudaft('_imagens/Fotos.png')" onmouseout="mudaft('_imagens/Fotos.png)"><a href="fotos.html">Fotos</a></li>
+        <li onmousemove="mudaft('_imagens/multimidia.png')" onmouseout="mudaft('_imagens/Fotos.png')"><a href="multimidia.html">Multimidia</a></li>
+        <li onmousemove="mudaft('_imagens/contato.png')" onmouseout="mudaft('_imagens/Fotos.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+    </ul>
+    </nav>
+    </header>
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <hgroup>
+                <header id="cabecalho2">
+                    <h3>Glass > Fotos</h3>
+                    <h1>Galeria de Imagens do Google Glass</h1>
+                    <h3>por David Marcos</h3>
+                    <h3>Atualizado em 14/setembro/2020</h3>
+                </header>
+            </hgroup>
+
+<p>Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.<p>
+<ul id="galeria">
+    <li id="ft1"><span>Agenda e lembretes</span></li>
+    <li id="ft2"><span>Sergey Brin usando o Glass</span></li>
+    <li id="ft3"><span>Leve e compacto</span></li>
+    <li id="ft4"><span>Sensação de uma tela de 50"</span></li>
+    <li id="ft5"><span>Vários tipos de lente</span></li>
+    <li id="ft6"><span>Informações importantes</span></li>
+</ul>
+    </article>
+</section>
+<footer id="rodape"><!--representa o rodape parte final do site-->
+    <h2>Copyright 2020 - by David Marcos</h2>
+    <h2><a href="https://www.facebook.com/david.marcos.56614/" target="_blank">Facebook </a>|<a href="https://www.instagram.com/david_marcos98/?hl=pt-br" target="_blank">Instagram</a></h2>
+    </footer>
+    </div>
+    </body>
+    
+</html>
