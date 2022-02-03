@@ -9,7 +9,15 @@
 
 Comandos css:
 
+comandos para alterar fundo site:
+	
+	background-image: url('caminho da imagem');    //comando para inserir imagem no fundo do site
 	background-image: linear-gradient(to bottom,); // comando para criar o efeito degrade
+	background-size: //comando para definir o tamanho da imagem de fundo
+	background-repet: //comando para definir se a imagem de fundo deve se repetir
+	background-position: (left top),(left center), (rigth bottom), (center center) ; //comando para posicionar fundo site
+           
+	
 	
 	
 	
