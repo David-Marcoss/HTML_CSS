@@ -13,10 +13,15 @@ comandos para alterar fundo site:
 	
 	background-image: url('caminho da imagem');    //comando para inserir imagem no fundo do site
 	background-image: linear-gradient(to bottom,); // comando para criar o efeito degrade
-	background-size: //comando para definir o tamanho da imagem de fundo
+	background-size:(cover = cobre a tela inteira com a imagem),(contain= exibe 100% da imagem) //comando para definir o tamanho da imagem de fundo
 	background-repet: //comando para definir se a imagem de fundo deve se repetir
 	background-position: (left top),(left center), (rigth bottom), (center center) ; //comando para posicionar fundo site
-           
+	
+	background-attachment: fixed; //fixa a imagem de fundo que nao rola com o conteudo
+	background-attachment: scroll; //rola a imagem de fundo junto com o conteudo
+	
+	background: color image position repeat attachment //comando simplificado
+            
 	
 	
 	
